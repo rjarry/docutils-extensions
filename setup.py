@@ -24,10 +24,8 @@ setup(
         "Topic :: Text Processing :: Document Generation",
     ],
     packages = ["docutilsextensions"],
-    packages = ["docutilsextensions"],
     package_dir = {'': 'src'},
-    package_data = {'docutilsextensions' : ["README.txt"] },
-    scripts = ['src/scripts/rst', 'src/scripts/rst.cmd', 'src/scripts/rst.py'],
-    data_files = [ ("Lib/site-packages/rst_extensions", ["src/rst_extensions/README.txt"]) ]
+    package_data = {'docutilsextensions' : ["src/docutilsextensions/*.txt"] },
+    scripts = ['src/scripts/rst', 'src/scripts/rst.cmd', 'src/scripts/rst.py']
 )
 
