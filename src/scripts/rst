@@ -1,0 +1,3 @@
+#!/bin/bash
+export SCRIPTS_FOLDER=$(dirname $0)
+python "$SCRIPTS_FOLDER/rst.py" $*
