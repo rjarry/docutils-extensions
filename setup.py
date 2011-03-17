@@ -2,12 +2,12 @@
 from distutils.core import setup
 setup(
     name = "docutils-extensions",
-    version = "0.1.0",
+    version = "0.1.1",
     license = "MIT",
     requires = ["docutils (>=0.7)"],
 
     description = "A docutils extension for allowing easy directive contribution.",
-    long_description = open('README.txt').read(),
+    long_description = open('README.rst').read(),
     author = "Robin Jarry",
     author_email = "robin.jarry@gmail.com",
     url = "https://github.com/diabeteman/rst_extensions",

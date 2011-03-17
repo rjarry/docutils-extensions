@@ -7,6 +7,10 @@ A Docutils extension for allowing easy directive contribution. All contributions
 Docutils Extensions, installs a single ``rst.py`` script in your Python installation directory. 
 From this script, you can invoke any docutils script (such as ``rst2html``, ``rst2odt``, etc.)
 
+
+Usage
+-----
+
 Here's the usage: ::
 
 	rst <output_format> <original_docutils_scripts_options_and_arguments>
@@ -16,6 +20,10 @@ Here's the usage: ::
 ``original_docutils_scripts_options_and_arguments``
 	These will be passed to the invoked script
 
-Required python libraries:
+
+
+
+Required python libraries
+-------------------------
 
 * docutils: http://docutils.sourceforge.net/
