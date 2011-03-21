@@ -20,6 +20,7 @@ Here's the usage: ::
 ``original_docutils_scripts_options_and_arguments``
 	These will be passed to the invoked script
 
+Required python libraries:
 
 Examples
 --------
