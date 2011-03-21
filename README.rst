@@ -21,6 +21,12 @@ Here's the usage: ::
 	These will be passed to the invoked script
 
 
+Examples
+--------
+
+>>> rst html --cloak-email-addresses source.rst output.html
+
+>>> rst odt --stylesheet=d:\templates\mytemplate.odt --add-syntax-highlighting source.rst output.odt
 
 
 Required python libraries

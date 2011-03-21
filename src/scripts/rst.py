@@ -4,8 +4,7 @@ Created on 16 mars 2011
 @author: Robin Jarry
 '''
 
-import os, os.path, sys
-import docutils
+import os.path, sys
 from docutils.parsers.rst import Directive, directives
 from docutils.parsers.rst.directives import _directive_registry
 import inspect
